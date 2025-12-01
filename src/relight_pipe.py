@@ -1,14 +1,13 @@
 import html
-from typing import Callable, Dict, List, Optional, Union
+from typing import List, Optional, Union
 import ftfy
 import regex as re
 import torch
 from transformers import AutoTokenizer, UMT5EncoderModel
 
-from diffusers.callbacks import MultiPipelineCallbacks, PipelineCallback
 from diffusers.models import AutoencoderKLWan, WanTransformer3DModel
 from diffusers.schedulers import FlowMatchEulerDiscreteScheduler
-from diffusers.utils import is_torch_xla_available, logging, replace_example_docstring
+from diffusers.utils import logging, replace_example_docstring
 from diffusers.utils.torch_utils import randn_tensor
 from diffusers.video_processor import VideoProcessor
 from diffusers.pipelines.pipeline_utils import DiffusionPipeline
