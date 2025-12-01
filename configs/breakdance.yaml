@@ -1,9 +1,9 @@
 n_prompt: "bad quality, worse quality"
 vdm_prompt: "A man breakdances in front of a crowd of poeple"
 relight_prompt: "A man breakdances in front of a crowd of people, cyberpunk red and blue neon light at city night."
-video_path: "input_wan/scene/breakdance.mp4"
+video_path: "input/breakdance.mp4"
 bg_source: "TOP"  ## LEFT, RIGHT, BOTTOM, TOP
-save_path: "output_lav/scenarios"
+save_path: "output"
 
 
 width: 832
