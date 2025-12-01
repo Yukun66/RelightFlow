@@ -1,0 +1,15 @@
+n_prompt: "bad quality, worse quality"
+vdm_prompt: "A person walking on the beach"
+relight_prompt: "A person walking on the beach, sunset glow over the coast, sky glowing with an orange-red gradient, peaceful atmosphere"
+video_path: "input_wan/more/5.mp4"
+bg_source: "LEFT"  ## LEFT, RIGHT, BOTTOM, TOP
+save_path: "output/more"
+
+width: 832
+height: 480
+num_frames: 49
+strength: 0.5
+gamma: 0.5
+num_step: 25
+text_guide_scale: 2
+seed: 42
