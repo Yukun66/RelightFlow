@@ -1,0 +1,15 @@
+n_prompt: "bad quality, worse quality"
+vdm_prompt: "A man walking on a path in the woods."
+relight_prompt: "A man walking on a path in the woods, golden morning rays slant through trees and light the trail."
+video_path: "input_wan/more/hike_path.mp4"
+bg_source: "TOP"  ## LEFT, RIGHT, BOTTOM, TOP
+save_path: "output"
+
+width: 832
+height: 480
+num_frames: 49
+strength: 0.5
+gamma: 0.5
+num_step: 25
+text_guide_scale: 2
+seed: 42
