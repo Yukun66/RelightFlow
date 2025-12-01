@@ -1,0 +1,16 @@
+n_prompt: "bad quality, worse quality"
+vdm_prompt: "White fishing boat sailing on the blue river"
+relight_prompt: "White fishing boat sailing on the blue river, warm golden hour sunlight from the right"
+video_path: "input_wan/transportation/boat.mp4"
+bg_source: "RIGHT"  ## LEFT, RIGHT, BOTTOM, TOP
+save_path: "output_lav/scenarios"
+
+
+width: 832
+height: 480
+num_frames: 49
+strength: 0.5
+gamma: 0.5
+num_step: 25
+text_guide_scale: 2
+seed: 42
