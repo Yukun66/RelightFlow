@@ -1,9 +1,9 @@
 n_prompt: "bad quality, worse quality"
 vdm_prompt: "Car drifting on the racetrack"
 relight_prompt: "Car drifting on the racetrack, high contrast lighting under noon sun."
-video_path: "input_wan/transportation/burnout.mp4"
+video_path: "input/burnout.mp4"
 bg_source: "RIGHT"  ## LEFT, RIGHT, BOTTOM, TOP
-save_path: "output_lav/scenarios"
+save_path: "output"
 
 
 width: 832
