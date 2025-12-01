@@ -18,7 +18,6 @@ from diffusers.utils import BaseOutput
 from dataclasses import dataclass
 from einops import rearrange
 from src.wan_flowmatch import wan_flowmatch_light
-from diffusers.utils import export_to_gif
 
 PipelineImageInput = Union[
     PIL.Image.Image,
