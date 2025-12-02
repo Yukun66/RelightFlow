@@ -9,12 +9,37 @@ This repository is the official implementation of **RelightFlow**, a training-fr
 
 
 ## 🎥Demo
+https://github.com/user-attachments/assets/f7f17db1-82c2-48db-97c0-e2da6f53168f
+---
+<table class="center">
+    <tr>
+      <td><p style="text-align: center">..., cyberpunk red and blue neon light at city night.</p></td>
+      <td><p style="text-align: center">..., high contrast lighting under noon sun.</p></td>
+    </tr>
+    <tr>
+      <td><img src="__assets__/breakdance_com.gif"></td>
+      <td><img src="__assets__/burnout_com.gif"></td>
+    </tr>
+    <tr>
+      <td><p style="text-align: center">..., sharsh midday direct sunlight.</p></td>
+      <td><p style="text-align: center">..., in the forest, golden hour sunlight shining on the beach, players' shadows stretching long.</p></td>
+    </tr>
+    <tr>
+      <td><img src="__assets__/planes-water_com.gif"></td>
+      <td><img src="__assets__/volleyball-beach_com.gif"></td>
+    </tr>
+</table>
 
 
 
 ## Method Overview
+![Method](https://github.com/user-attachments/assets/e90f699a-c0dc-4ca7-9956-78ae5f65b8c8)
 
+RelightFlow is a training-free video relighting framework built upon a flowmatching video generation model. This framework is capable of producing temporally consistent, high-fidelity relighted videos without the need for additional training or optimization. First, we perform relighting directly in the noise-free latent space, avoiding noise inversion processes that often degrade content quality and introduce structural distortions. Second, we treat the diffusion model not merely as a denoising tool but as an effective editing mechanism, fully exploiting its ability to achieve consistent illumination adjustments. Third, we formulate relighting strategies within the latent variable space, which enhances the coherence of the relighting process and allows for efficient integration of contextual and semantic information, thereby reducing spatial distortions and framelevel blurring.
+
+## Installation
 
 ## Citation
 
 ## 
+
