@@ -1,3 +1,5 @@
+<img width="1989" height="415" alt="image" src="https://github.com/user-attachments/assets/c119f238-d495-48e9-9591-2cf2cee0e6e5" />
+
 ## RelightFlow: An Inversion-Free Video Relighting Model via Dual-Trajectory Diffusion Editing
 
 This repository is the official implementation of **RelightFlow**, a training-free framework for zero-shot video relighting that achieves stronger temporal stability and higher detail fidelity compared to existing methods.
@@ -56,6 +58,7 @@ RelightFlow is a training-free video relighting framework built upon a flowmatch
 ## Citation
 
 ## 
+
 
 
 
