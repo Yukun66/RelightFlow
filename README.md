@@ -9,7 +9,7 @@ This repository is the official implementation of **RelightFlow**, a training-fr
 
 
 ## 🎥Demo
-https://github.com/user-attachments/assets/f7f17db1-82c2-48db-97c0-e2da6f53168f
+[![]](https://github.com/user-attachments/assets/f7f17db1-82c2-48db-97c0-e2da6f53168f)
 ---
 <table class="center">
     <tr>
@@ -42,4 +42,5 @@ RelightFlow is a training-free video relighting framework built upon a flowmatch
 ## Citation
 
 ## 
+
 
