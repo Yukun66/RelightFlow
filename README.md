@@ -53,12 +53,31 @@ https://github.com/user-attachments/assets/f5b03375-fc6a-4074-a96f-1b6955be19fa
 
 RelightFlow is a training-free video relighting framework built upon a flowmatching video generation model. This framework is capable of producing temporally consistent, high-fidelity relighted videos without the need for additional training or optimization. First, we perform relighting directly in the noise-free latent space, avoiding noise inversion processes that often degrade content quality and introduce structural distortions. Second, we treat the diffusion model not merely as a denoising tool but as an effective editing mechanism, fully exploiting its ability to achieve consistent illumination adjustments. Third, we formulate relighting strategies within the latent variable space, which enhances the coherence of the relighting process and allows for efficient integration of contextual and semantic information, thereby reducing spatial distortions and framelevel blurring.
 
-## Installation
+## Installation and Quick Start
+
+### Setup repository and conda environment
+
+```bash
+git clone https://github.com/Yukun66/RelightFlow.git
+cd RelightFlow
+
+conda create -n relightflow python=3.10
+conda activate relightflow
+
+pip install -r requirements.txt
+```
+
+### Pretrained Model Preparations
+- IC-Light: [Huggingface](https://huggingface.co/lllyasviel/ic-light)
+- Wan2.1-T2V-1.3B-Diffusers: [Huggingface](https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B-Diffusers)
+
+### Perform video relighting
+
+```bash
+python relight_flow.py --config "configs/boat.yaml"
+```
 
 ## Citation
-
-## 
-
 
 
 
