@@ -23,7 +23,8 @@ Yulan Guo<sup>†</sup>
 [![Hugging Face(coming soon)](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-red)]()
 
 ## 🎥Demo
-https://github.com/user-attachments/assets/f5b03375-fc6a-4074-a96f-1b6955be19fa
+https://github.com/user-attachments/assets/001ef64d-9ac4-4b27-a78c-d15865ee8dae
+
 
 
 ---
@@ -78,6 +79,7 @@ python relight_flow.py --config "configs/boat.yaml"
 ```
 
 ## Citation
+
 
 
 
